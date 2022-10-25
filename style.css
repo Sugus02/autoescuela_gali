@@ -12,9 +12,6 @@ section form {
     display: grid;
 }
 
-a:hover {
-    color: red;
-}
 
 .inicio {
     font-family: 'Anton', sans-serif;
