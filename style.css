@@ -4,18 +4,47 @@
     box-sizing: border-box;
 }
 
-.carousel {
-    width: 100%;
-}
-
-section form {
+section .formulario {
     display: grid;
 }
 
+header {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+header div .logo {
+    width: 100%;
+}
+
+header div {
+    width: 30%;
+}
+
+.navbar {
+    border-radius: 6px;
+}
+
+.nav-link {
+    color: red;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.carousel {
+    position: ;
+}
 
 .inicio {
     font-family: 'Anton', sans-serif;
-    color: black;
+    position: relative;
+    left: 25%;
     text-align: center;
     font-size: 2rem;
     border-radius: 6px;
@@ -42,62 +71,29 @@ body {
     background-color: #fff;
 }
 
-header {
-    height: auto;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1%;
-}
-
 header div a img {
     width: 20rem;
 }
 
-.navegador {
-    width: 750px;
-    height: 80px;
-    gap: 40px;
-    border-radius: 6px;
-    list-style-type: none;
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-}
-
-nav ul li a {
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    color: red
-}
-
-footer {
-    height: auto;
-    width: auto;
-    display: flex;
-    padding: 1%;
     background-color: rgba(128, 128, 128, 0.174)
 }
 
-footer div {
-    display: flex;
-    align-items: baseline;
-    gap: 10px;
-    color: red
-}
 
-footer div a {
+.footer div a {
+    margin-left: 5px;
     color: red;
     text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-footer div p {
-    margin-left: 500px;
+.footer div p {
+    color: red;
+    margin-top: 10px;
+    margin-left: 510px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -146,6 +142,7 @@ footer div p {
     font-weight: bold;
 }
 
+
 .card a {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
@@ -164,8 +161,8 @@ footer div p {
 }
 
 .contacto {
+    margin: 10px;
     display: flex;
-    padding: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -179,7 +176,6 @@ footer div p {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    margin: 10px;
 }
 
 .contacto div ul i {
@@ -188,87 +184,31 @@ footer div p {
 }
 
 form {
-    display: grid;
-    grid-template-areas: "legend legend"
-        "nombre email"
-        "numero cursos"
-        "generos generos"
-        "consulta consulta"
-        "enviar enviar";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 3fr 1fr;
-    padding: 2%;
-    box-sizing: border-box;
-    border: outset;
-    background-color: rgb(255, 0, 0);
-    overflow: hidden;
-    border-radius: 6px;
-    margin: auto;
-}
-
-#nombre {
-    grid-area: nombre;
-}
-
-#email {
-    grid-area: email;
-    width: 205px;
-}
-
-#numero {
-    grid-area: numero;
-}
-
-#cursos {
-    grid-area: cursos;
-}
-
-#enviar {
-    font-weight: bold;
-    grid-area: enviar;
-    background-color: #fff;
-    color: red;
-    width: 80px;
-}
-
-#enviar:hover {
+    margin-left: 100px;
     background-color: red;
-    border: solid 2px yellow;
-    color: yellow;
-}
-
-#consulta {
-    grid-area: consulta;
-}
-
-form legend {
-    grid-area: legend;
-    font-weight: bold;
-    text-align: center;
-    color: #fff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.generos {
-    display: flex;
-    grid-area: generos;
-    color: #fff;
-    justify-content: space-evenly;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-form div {
-    margin: 1%;
-}
-
-form div input {
     padding: 5%;
+    border-radius: 6px;
+    height: 450px;
 }
 
-form div select {
-    padding: 5%;
-    grid-area: cursos
+.form-control {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.titulo_form {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.form-check.form-check-inline {
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 .sobre_nosotros {
@@ -349,12 +289,14 @@ form div select {
     color: red;
     margin: 10px;
 }
-.curso p{
-    margin:10px;
+
+.curso p {
+    margin: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .curso a {
-    margin:10px;
+    margin: 10px;
     padding: 10px;
     background-color: white;
     text-decoration: none;
