@@ -9,6 +9,7 @@ section .formulario {
 }
 
 header {
+    width: 100%;
     background-color: red;
     display: flex;
     align-items: center;
@@ -40,13 +41,11 @@ header div {
 
 .inicio {
     font-family: 'Anton', sans-serif;
-    position: relative;
-    left: 25%;
     text-align: center;
     font-size: 2rem;
     border-radius: 6px;
-    width: 650px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.308);
 }
@@ -64,6 +63,10 @@ header div {
     color: red
 }
 
+.carousel {
+    width: 100%;
+}
+
 body {
     background-color: #fff;
 }
@@ -74,9 +77,10 @@ header div a img {
 
 .footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(128, 128, 128, 0.174)
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.174);
 }
 
 
@@ -89,27 +93,23 @@ header div a img {
 
 .footer div p {
     color: red;
-    margin-top: 10px;
-    margin-left: 510px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .titulo {
-    margin: 15px;
+    margin: 10px;
     text-transform: uppercase;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: red
 }
 
-.productos {
-    display: flex;
-    padding: 10px;
-}
 
 .contacto {
-    margin: 10px;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -131,12 +131,10 @@ header div a img {
 }
 
 form {
-    margin-left: 200px;
-    width: 5fr;
+    width: 100%;
     background-color: red;
     padding: 5%;
     border-radius: 6px;
-    height: 500px;
 }
 
 .form-control {
@@ -145,11 +143,11 @@ form {
 }
 
 .titulo_form {
-    margin-left: 100px;
+    width: 100%;
     margin-bottom: 20px;
     color: white;
     font-weight: bold;
-    justify-content: center;
+    text-transform: uppercase;
 }
 
 .form-check.form-check-inline {
@@ -169,10 +167,7 @@ form {
 .ubicacion {
     display: flex;
     justify-content: center;
-}
-
-.ubicacion div {
-    margin: 1%;
+    width: 100%;
 }
 
 .obtene_tu_licencia {
@@ -196,22 +191,24 @@ form {
 
 .material {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .material div {
-    width: 100%;
+    width: 270px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     margin: 15px;
-    align-items: center;
     border-radius: 6px;
     overflow: hidden;
 }
 
 .material div img {
     width: 100%;
+    height: 65%;
 }
 
 .material h2 {
+    margin: 10px;
     text-align: center;
     color: red;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -224,12 +221,13 @@ form {
 
 
 .curso {
-    margin: 20px;
+    margin: 15px;
     display: flex;
+    justify-content: space-around;
 }
 
 .curso img {
-    width: 50%;
+    width: 100%;
     border-radius: 6px;
 }
 
@@ -242,6 +240,10 @@ form {
 .curso p {
     margin: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.curso h3 {
+    margin: 10px;
 }
 
 .curso a {
@@ -260,3 +262,48 @@ form {
     border: solid 1px yellow;
     color: yellow;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card a {
+    border: solid 1px red;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card a:hover {
+    color: yellow;
+    background-color: red;
+    border: solid 1px yellow;
+}
+
+@media screen and (max-width: 991px) {
+    .curso {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}    
