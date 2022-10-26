@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-section .formulario {
-    display: grid;
-}
 
 header {
     width: 100%;
@@ -40,6 +37,7 @@ header div {
 
 
 .inicio {
+    top: 50%;
     font-family: 'Anton', sans-serif;
     text-align: center;
     font-size: 2rem;
@@ -308,6 +306,21 @@ form {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .material {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 170%;
+    }
+
+    .container {
+        align-items: center;
+    }
+
 
     .footer {
         width: 100%;
