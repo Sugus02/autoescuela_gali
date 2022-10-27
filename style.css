@@ -35,7 +35,15 @@ header div {
     color: red;
 }
 
-
+.dropdown-item{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.dropdown-item:hover{
+    background-color: red;
+    color: yellow;
+}
 .inicio {
     top: 50%;
     font-family: 'Anton', sans-serif;
