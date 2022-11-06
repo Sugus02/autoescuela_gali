@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+
+    div {
+        width: 30%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    img {
+        width: 20rem;
+    }
+}
+
+
+
+.navbar {
+    border-radius: 6px;
+
+    .nav-link {
+        color: red;
+        font-weight: bold;
+    }
+
+    .nav-link:hover {
+        color: red;
+    }
+
+    .dropdown-item {
+        color: red;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .dropdown-item:hover {
+        background-color: red;
+        color: yellow;
+        transition: 0.5s;
+    }
+
+}
+
+
+
+.carousel {
+    width: 100%;
+
+    h1 {
+        color: red;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-weight: bold;
+        color: yellow;
+    }
+
+    a {
+        font-size: 2rem;
+        color: red;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .flyer {
+        background-color: rgba(0, 0, 0, 0.597);
+        border-radius: 6px;
+        width: 100%;
+    }
+}
+
+body {
+    background-color: #fff;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.174);
+
+    a {
+        margin-left: 5px;
+        color: red;
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    p {
+        margin-top: 15px;
+        color: red;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 0 30px 0;
+
+    a {
+        text-decoration: none;
+        color: red;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 70px;
+    }
+}
+
+.titulo {
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: red
+}
+
+.contacto {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+    }
+
+    i {
+        color: red;
+        margin-right: 5px;
+    }
+
+    .llamanos {
+        font-size: 2rem;
+    }
+}
+
+
+form {
+    width: 500px;
+    background-color: red;
+    padding: 5%;
+    border-radius: 6px;
+
+    .titulo_form {
+        width: 100%;
+        margin-bottom: 20px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-floating .form-select {
+        width: 220px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .form-control {
+        width: 220px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .generos {
+        margin: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .form-check.form-check-inline {
+        color: white;
+        font-weight: bold;
+    }
+
+}
+
+
+.sobre_nosotros {
+    margin: 10px;
+    font-size: large;
+    padding: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.iframe-container {
+    margin: 50px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.obtene_tu_licencia {
+    margin: 10px;
+}
+
+.material {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    div {
+        width: 270px;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+        margin: 15px;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    div:hover {
+        transform: scale(1.1);
+        transition: .7s;
+    }
+
+    img {
+        width: 100%;
+        height: 65%;
+    }
+
+    h2 {
+        margin: 10px;
+        text-align: center;
+        color: red;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+.requisitos {
+    margin-left: 30px;
+
+    ul {
+        font-weight: bold;
+        color: red;
+        text-transform: uppercase;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    li {
+        padding: 5px;
+    }
+}
+
+.turno {
+    display: flex;
+    justify-content: center;
+
+    a {
+        padding: 10px;
+        border: solid 1px red;
+        border-radius: 6px;
+        color: red;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    a:hover {
+        background-color: red;
+        color: yellow;
+        transition: 1s;
+    }
+}
+
+.curso {
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    h2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: red;
+        margin: 10px;
+    }
+
+    p {
+        margin: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    h3 {
+        margin: 10px;
+    }
+
+    a {
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        text-decoration: none;
+        color: red;
+        border: solid 1px red;
+        border-radius: 6px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    a:hover {
+        background-color: red;
+        border: solid 1px yellow;
+        color: yellow;
+        transition: .7s;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+
+    a {
+        border: solid 1px red;
+        margin: 5px;
+        padding: 5px;
+        color: red;
+        text-align: center;
+        border-radius: 6px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: yellow;
+        background-color: red;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .curso {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .material {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 170%;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer div p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    form .form-floating .form-select {
+        width: 100%;
+        display: block;
+    }
+
+    .form-floating .form-control {
+        width: 100%;
+        display: block;
+    }
+}
