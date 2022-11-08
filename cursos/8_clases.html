@@ -21,54 +21,64 @@
     </head>
 <body>
     <header>
-        <div><a href="../index.html"><img class="logo" src="../assets/img/Header autoescuela gali-Recuperado.png"
-                    alt=""></a></div>
         <section>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-md">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="./index.html"><img class="logo"
+                            src="../assets/img/Header autoescuela gali-Recuperado.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">INICIO</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    CURSOS
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../cursos/6_clases.html">Curso 6 clases</a>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <img style="width: 80%;" src="../assets/img/Header autoescuela gali-Recuperado.png"
+                                alt="logo_autoescuela">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">INICIO</a>
                                 </li>
-                                    <li><a class="dropdown-item" href="../cursos/8_clases.html">Curso 8 clases</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="../cursos/10_clases.html">Curso 10 clases</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="../cursos/12_clases.html">Curso 12 clases</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="../cursos/14_clases.html">Curso 14 clases</a>
-                                    </li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="../cursos/clases_libres.html">Clases libres</a>
-                                    </li>
-                                </ul>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/obtene_tu_licencia.html">OBTENÉ TU LICENCIA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/sobre_nostros.html">SOBRE NOSOTROS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/contacto.html">CONTACTANOS</a>
-                            </li>
-                            </li>
-                        </ul>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        CURSOS
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="../cursos/6_clases.html">Curso 6 clases</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../cursos/8_clases.html">Curso 8 clases</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../cursos/10_clases.html">Curso 10 clases</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../cursos/12_clases.html">Curso 12 clases</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../cursos/14_clases.html">Curso 14 clases</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a style="border-bottom: none;" class="dropdown-item"
+                                                href="../cursos/clases_libres.html">Clases
+                                                libres</a>
+                                        </li>
+                                    </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/obtene_tu_licencia.html">OBTENÉ TU LICENCIA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/sobre_nostros.html">SOBRE NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/contacto.html">CONTACTANOS</a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>

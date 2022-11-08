@@ -9,35 +9,37 @@ header {
     width: 100%;
     background-color: red;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1%;
-
-    div {
-        width: 30%;
-    }
 
     .logo {
         width: 100%;
     }
 
-    img {
-        width: 20rem;
-    }
 }
 
+.offcanvas-body {
+    display: flex;
+    justify-content: center;
+}
 
+.navbar-brand {
+    margin-left: 3%;
+    width: 30%;
+}
 
-.navbar {
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    padding: 1%;
     border-radius: 6px;
+    background-color: #fff;
+
 
     .nav-link {
         color: red;
         font-weight: bold;
-    }
-
-    .nav-link:hover {
-        color: red;
     }
 
     .dropdown-item {
@@ -167,7 +169,7 @@ body {
 
 
 form {
-    width:500px;
+    width: 500px;
     background-color: red;
     padding: 5%;
     border-radius: 6px;
@@ -251,7 +253,7 @@ form {
     div {
         width: 270px;
         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-        margin: 15px;
+        margin: 1%;
         border-radius: 6px;
         overflow: hidden;
     }
@@ -311,12 +313,11 @@ form {
 }
 
 .curso {
-    margin: 15px;
     display: flex;
-    justify-content: space-around;
 
     img {
-        width: 100%;
+        margin: 1%;
+        width: 95%;
         border-radius: 6px;
     }
 
@@ -397,10 +398,6 @@ form {
         align-items: center;
     }
 
-    .logo {
-        width: 170%;
-    }
-
     .container {
         align-items: center;
     }
@@ -428,10 +425,80 @@ form {
         width: 100%;
         display: block;
     }
+
+    .navbar-brand {
+        width: 50%;
+    }
+
+    .navbar-nav {
+        display: flex;
+        width: 100%;
+        background-color: #212529;
+
+        .nav-link {
+            width: 100%;
+            margin: 1%;
+            color: #fff;
+            padding: 2%;
+            border-bottom: solid 0.2px white;
+        }
+
+        .dropdown-menu {
+            margin: 4%;
+            background-color: #212529;
+            border: solid 0.2px white;
+
+            .dropdown-divider {
+                border: none;
+            }
+
+            .dropdown-item {
+                color: #fff;
+                border-bottom: solid 0.2px white;
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width: 500px) {
-    form{
+
+    .navbar-brand {
+        width: 70%;
+    }
+
+    form {
         width: 100%;
+    }
+
+    form .form-floating .form-select {
+        width: 100%;
+        display: block;
+    }
+
+    .form-floating .form-control {
+        width: 100%;
+        display: block;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .requisitos {
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .curso {
+        img {
+            display: flex;
+            justify-content: center;
+            width: 90%;
+        }
     }
 }
