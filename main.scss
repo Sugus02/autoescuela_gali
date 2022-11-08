@@ -1,3 +1,5 @@
+@import "utilities/colors";
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +9,7 @@
 
 header {
     width: 100%;
-    background-color: red;
+    background-color:$primary;
     display: flex;
 
     .logo {
@@ -86,7 +88,7 @@ header {
 }
 
 body {
-    background-color: #fff;
+    background-color: $secondary;
 }
 
 .footer {
@@ -94,7 +96,7 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(128, 128, 128, 0.174);
+    background-color: $terciary;
 
     a {
         margin-left: 5px;
