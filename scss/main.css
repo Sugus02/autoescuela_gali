@@ -169,6 +169,11 @@ form .form-control {
   display: flex;
   flex-wrap: nowrap;
 }
+form input[type=number].form-control::-webkit-inner-spin-button,
+form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 form .generos {
   margin: 25px;
   display: flex;

@@ -165,6 +165,7 @@ body {
 }
 
 
+
 form {
     width: 500px;
     background-color: red;
@@ -191,6 +192,14 @@ form {
         width: 220px;
         display: flex;
         flex-wrap: nowrap;
+
+        
+    }
+
+    input[type=number].form-control::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
     }
 
     .generos {
