@@ -1,15 +1,10 @@
-@import "utilities/colors";
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import "colors/colors";
+@import "reset/reset";
 
 
 header {
     width: 100%;
-    background-color:$primary;
+    background-color: $prymary;
     display: flex;
 
     .logo {
