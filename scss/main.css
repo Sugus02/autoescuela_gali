@@ -51,7 +51,7 @@ header .logo {
 .carousel {
   width: 100%;
 }
-.carousel h1 {
+.carousel h2 {
   color: rgb(216, 1, 1);
   text-transform: uppercase;
 }
