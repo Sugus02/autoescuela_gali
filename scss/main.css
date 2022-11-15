@@ -6,7 +6,7 @@
 
 header {
   width: 100%;
-  background-color: red;
+  background-color: rgb(216, 1, 1);
   display: flex;
 }
 header .logo {
@@ -31,19 +31,19 @@ header .logo {
   display: flex;
   padding: 1%;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: white;
 }
 .navbar-nav .nav-link {
-  color: red;
+  color: rgb(216, 1, 1);
   font-weight: bold;
 }
 .navbar-nav .dropdown-item {
-  color: red;
+  color: rgb(216, 1, 1);
   text-transform: uppercase;
   font-weight: bold;
 }
 .navbar-nav .dropdown-item:hover {
-  background-color: red;
+  background-color: rgb(216, 1, 1);
   color: yellow;
   transition: 0.5s;
 }
@@ -52,7 +52,7 @@ header .logo {
   width: 100%;
 }
 .carousel h1 {
-  color: red;
+  color: rgb(216, 1, 1);
   text-transform: uppercase;
 }
 .carousel p {
@@ -61,7 +61,7 @@ header .logo {
 }
 .carousel a {
   font-size: 2rem;
-  color: red;
+  color: rgb(216, 1, 1);
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -84,13 +84,13 @@ body {
 }
 .footer a {
   margin-left: 5px;
-  color: red;
+  color: rgb(216, 1, 1);
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .footer p {
   margin-top: 15px;
-  color: red;
+  color: rgb(216, 1, 1);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 .redes a {
   text-decoration: none;
-  color: red;
+  color: rgb(216, 1, 1);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -116,7 +116,7 @@ body {
   text-transform: uppercase;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
-  color: red;
+  color: rgb(216, 1, 1);
 }
 
 .contacto {
@@ -137,7 +137,7 @@ body {
   justify-content: baseline;
 }
 .contacto i {
-  color: red;
+  color: rgb(216, 1, 1);
   margin-right: 5px;
 }
 .contacto .llamanos {
@@ -146,7 +146,7 @@ body {
 
 form {
   width: 500px;
-  background-color: red;
+  background-color: rgb(216, 1, 1);
   padding: 5%;
   border-radius: 6px;
 }
@@ -169,11 +169,6 @@ form .form-control {
   display: flex;
   flex-wrap: nowrap;
 }
-form input[type=number].form-control::-webkit-inner-spin-button,
-form input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 form .generos {
   margin: 25px;
   display: flex;
@@ -183,6 +178,28 @@ form .generos {
 form .form-check.form-check-inline {
   color: white;
   font-weight: bold;
+}
+form .form-check-input:checked {
+  background-color: rgb(216, 1, 1);
+  border-color: white;
+}
+form .form-check-input {
+  border: 2px solid rgba(0, 0, 0, 0.25);
+}
+form .btn {
+  background-color: #fff;
+  color: rgb(216, 1, 1);
+}
+form .btn:hover {
+  background-color: rgb(216, 1, 1);
+  border: solid 1px yellow;
+  color: yellow;
+}
+
+input[type=number].form-control::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .sobre_nosotros {
@@ -242,7 +259,7 @@ form .form-check.form-check-inline {
 .material h2 {
   margin: 10px;
   text-align: center;
-  color: red;
+  color: rgb(216, 1, 1);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -251,7 +268,7 @@ form .form-check.form-check-inline {
 }
 .requisitos ul {
   font-weight: bold;
-  color: red;
+  color: rgb(216, 1, 1);
   text-transform: uppercase;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -265,15 +282,15 @@ form .form-check.form-check-inline {
 }
 .turno a {
   padding: 10px;
-  border: solid 1px red;
+  border: solid 1px rgb(216, 1, 1);
   border-radius: 6px;
-  color: red;
+  color: rgb(216, 1, 1);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 }
 .turno a:hover {
-  background-color: red;
+  background-color: rgb(216, 1, 1);
   color: yellow;
   transition: 1s;
 }
@@ -288,7 +305,7 @@ form .form-check.form-check-inline {
 }
 .curso h2 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: red;
+  color: rgb(216, 1, 1);
   margin: 10px;
 }
 .curso p {
@@ -303,13 +320,13 @@ form .form-check.form-check-inline {
   padding: 10px;
   background-color: white;
   text-decoration: none;
-  color: red;
-  border: solid 1px red;
+  color: rgb(216, 1, 1);
+  border: solid 1px rgb(216, 1, 1);
   border-radius: 6px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .curso a:hover {
-  background-color: red;
+  background-color: rgb(216, 1, 1);
   border: solid 1px yellow;
   color: yellow;
   transition: 0.7s;
@@ -330,17 +347,17 @@ form .form-check.form-check-inline {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
 .card a {
-  border: solid 1px red;
+  border: solid 1px rgb(216, 1, 1);
   margin: 5px;
   padding: 5px;
-  color: red;
+  color: rgb(216, 1, 1);
   text-align: center;
   border-radius: 6px;
   text-decoration: none;
 }
 .card a:hover {
   color: yellow;
-  background-color: red;
+  background-color: rgb(216, 1, 1);
   transition: 1s;
 }
 
@@ -386,7 +403,7 @@ form .form-check.form-check-inline {
   .navbar-nav .nav-link {
     width: 100%;
     margin: 1%;
-    color: #fff;
+    color: white;
     padding: 2%;
     border-bottom: solid 0.2px white;
   }
@@ -399,7 +416,7 @@ form .form-check.form-check-inline {
     border: none;
   }
   .navbar-nav .dropdown-menu .dropdown-item {
-    color: #fff;
+    color: white;
     border-bottom: solid 0.2px white;
   }
 }

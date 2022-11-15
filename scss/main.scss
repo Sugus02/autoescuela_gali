@@ -24,29 +24,29 @@ header {
 }
 
 .navbar-toggler {
-    background-color: white;
+    background-color: $secondary;
 }
 
 .navbar-nav {
     display: flex;
     padding: 1%;
     border-radius: 6px;
-    background-color: #fff;
+    background-color: $secondary;
 
 
     .nav-link {
-        color: red;
+        color: $prymary;
         font-weight: bold;
     }
 
     .dropdown-item {
-        color: red;
+        color: $prymary;
         text-transform: uppercase;
         font-weight: bold;
     }
 
     .dropdown-item:hover {
-        background-color: red;
+        background-color: $prymary;
         color: yellow;
         transition: 0.5s;
     }
@@ -59,7 +59,7 @@ header {
     width: 100%;
 
     h1 {
-        color: red;
+        color: $prymary;
         text-transform: uppercase;
     }
 
@@ -70,7 +70,7 @@ header {
 
     a {
         font-size: 2rem;
-        color: red;
+        color: $prymary;
         text-transform: uppercase;
         font-weight: bold;
     }
@@ -95,14 +95,14 @@ body {
 
     a {
         margin-left: 5px;
-        color: red;
+        color: $prymary;
         text-decoration: none;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     p {
         margin-top: 15px;
-        color: red;
+        color: $prymary;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 }
@@ -115,7 +115,7 @@ body {
 
     a {
         text-decoration: none;
-        color: red;
+        color: $prymary;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -131,7 +131,7 @@ body {
     text-transform: uppercase;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    color: red
+    color: $prymary
 }
 
 .contacto {
@@ -155,7 +155,7 @@ body {
     }
 
     i {
-        color: red;
+        color: $prymary;
         margin-right: 5px;
     }
 
@@ -168,14 +168,14 @@ body {
 
 form {
     width: 500px;
-    background-color: red;
+    background-color: $prymary;
     padding: 5%;
     border-radius: 6px;
 
     .titulo_form {
         width: 100%;
         margin-bottom: 20px;
-        color: white;
+        color: $secondary;
         font-weight: bold;
         text-transform: uppercase;
         display: flex;
@@ -196,12 +196,6 @@ form {
         
     }
 
-    input[type=number].form-control::-webkit-inner-spin-button,
-    input[type=number]::-webkit-outer-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-    }
-
     .generos {
         margin: 25px;
         display: flex;
@@ -210,11 +204,36 @@ form {
     }
 
     .form-check.form-check-inline {
-        color: white;
+        color: $secondary;
         font-weight: bold;
     }
 
-}
+    .form-check-input:checked{
+        background-color: $prymary;
+        border-color:$secondary;
+    }
+    .form-check-input{
+        border: 2px solid rgba(0,0,0,.25);
+    }
+    
+
+    .btn{
+        background-color: #fff;
+        color: $prymary;
+    }
+
+    .btn:hover{
+        background-color: $prymary;
+        border: solid 1px yellow;
+        color: yellow;
+    }
+    }
+
+    input[type=number].form-control::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
 
 
 .sobre_nosotros {
@@ -277,7 +296,7 @@ form {
     h2 {
         margin: 10px;
         text-align: center;
-        color: red;
+        color: $prymary;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 }
@@ -287,7 +306,7 @@ form {
 
     ul {
         font-weight: bold;
-        color: red;
+        color: $prymary;
         text-transform: uppercase;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
@@ -303,16 +322,16 @@ form {
 
     a {
         padding: 10px;
-        border: solid 1px red;
+        border: solid 1px $prymary;
         border-radius: 6px;
-        color: red;
+        color: $prymary;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: bold;
     }
 
     a:hover {
-        background-color: red;
+        background-color: $prymary;
         color: yellow;
         transition: 1s;
     }
@@ -329,7 +348,7 @@ form {
 
     h2 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: red;
+        color: $prymary;
         margin: 10px;
     }
 
@@ -345,16 +364,16 @@ form {
     a {
         margin: 10px;
         padding: 10px;
-        background-color: white;
+        background-color: $secondary;
         text-decoration: none;
-        color: red;
-        border: solid 1px red;
+        color: $prymary;
+        border: solid 1px $prymary;
         border-radius: 6px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     a:hover {
-        background-color: red;
+        background-color: $prymary;
         border: solid 1px yellow;
         color: yellow;
         transition: .7s;
@@ -376,10 +395,10 @@ form {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 
     a {
-        border: solid 1px red;
+        border: solid 1px $prymary;
         margin: 5px;
         padding: 5px;
-        color: red;
+        color: $prymary;
         text-align: center;
         border-radius: 6px;
         text-decoration: none;
@@ -387,7 +406,7 @@ form {
 
     a:hover {
         color: yellow;
-        background-color: red;
+        background-color: $prymary;
         transition: 1s;
     }
 }
@@ -444,23 +463,23 @@ form {
         .nav-link {
             width: 100%;
             margin: 1%;
-            color: #fff;
+            color: $secondary;
             padding: 2%;
-            border-bottom: solid 0.2px white;
+            border-bottom: solid 0.2px $secondary;
         }
 
         .dropdown-menu {
             margin: 4%;
             background-color: #212529;
-            border: solid 0.2px white;
+            border: solid 0.2px $secondary;
 
             .dropdown-divider {
                 border: none;
             }
 
             .dropdown-item {
-                color: #fff;
-                border-bottom: solid 0.2px white;
+                color:$secondary;
+                border-bottom: solid 0.2px $secondary;
             }
         }
     }
