@@ -24,14 +24,14 @@ header .logo {
 }
 
 .navbar-toggler {
-  background-color: white;
+  background-color: rgb(242, 242, 242);
 }
 
 .navbar-nav {
   display: flex;
   padding: 1%;
   border-radius: 6px;
-  background-color: white;
+  background-color: rgb(242, 242, 242);
 }
 .navbar-nav .nav-link {
   color: rgb(216, 1, 1);
@@ -72,7 +72,7 @@ header .logo {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(242, 242, 242);
 }
 
 .footer {
@@ -153,7 +153,7 @@ form {
 form .titulo_form {
   width: 100%;
   margin-bottom: 20px;
-  color: white;
+  color: rgb(242, 242, 242);
   font-weight: bold;
   text-transform: uppercase;
   display: flex;
@@ -176,12 +176,12 @@ form .generos {
   align-items: center;
 }
 form .form-check.form-check-inline {
-  color: white;
+  color: rgb(242, 242, 242);
   font-weight: bold;
 }
 form .form-check-input:checked {
   background-color: rgb(216, 1, 1);
-  border-color: white;
+  border-color: rgb(242, 242, 242);
 }
 form .form-check-input {
   border: 2px solid rgba(0, 0, 0, 0.25);
@@ -318,7 +318,7 @@ input[type=number]::-webkit-outer-spin-button {
 .curso a {
   margin: 10px;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(242, 242, 242);
   text-decoration: none;
   color: rgb(216, 1, 1);
   border: solid 1px rgb(216, 1, 1);
@@ -403,21 +403,21 @@ input[type=number]::-webkit-outer-spin-button {
   .navbar-nav .nav-link {
     width: 100%;
     margin: 1%;
-    color: white;
+    color: rgb(242, 242, 242);
     padding: 2%;
-    border-bottom: solid 0.2px white;
+    border-bottom: solid 0.2px rgb(242, 242, 242);
   }
   .navbar-nav .dropdown-menu {
     margin: 4%;
     background-color: #212529;
-    border: solid 0.2px white;
+    border: solid 0.2px rgb(242, 242, 242);
   }
   .navbar-nav .dropdown-menu .dropdown-divider {
     border: none;
   }
   .navbar-nav .dropdown-menu .dropdown-item {
-    color: white;
-    border-bottom: solid 0.2px white;
+    color: rgb(242, 242, 242);
+    border-bottom: solid 0.2px rgb(242, 242, 242);
   }
 }
 @media screen and (max-width: 500px) {
