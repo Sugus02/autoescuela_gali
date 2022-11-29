@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   width: 100%;
   background-color: rgb(216, 1, 1);
